@@ -61,7 +61,7 @@ main{
     border: 0;
 }
 
-.checkbox:hover, #add:hover{
+.checkbox:hover, #add:hover, #delete:hover{
     cursor: pointer;
     box-shadow: 1px 1px 3px black;
     transition: all 200ms ease-in-out;
@@ -131,5 +131,14 @@ main{
 
 #title:focus, #description:focus{
     border: 0;
+}
+
+#delete{
+    border: 0px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 5px 10px;
+    align-self: flex-start;
+    background-color: #5353532d;
 }
 
