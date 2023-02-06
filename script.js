@@ -93,6 +93,7 @@ function deleteAll(){
     c = confirm("Tem certeza que deseja apagar todas as suas tarefas?")
     if(c){
         localStorage.clear()
+        location.reload()
     }
     
 }
